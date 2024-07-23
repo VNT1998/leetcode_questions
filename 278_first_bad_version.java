@@ -25,10 +25,10 @@
 
 /* The isBadVersion API is defined in the parent class VersionControl.*/
 
-public class Solution {
+class first_bad_version {
     boolean isBadVersion(int version) {
         return true;
-    };
+    }
 
     public int firstBadVersion(int n) {
         int start = 1, end = n, ans = -1;
